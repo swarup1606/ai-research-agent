@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 import time
 
 # ── 1. Config ─────────────────────────────────────────────────
-GROQ_KEY = "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"   # ← paste your Groq key here
+GROQ_KEY = "sk-your-key-here"   # ← paste your Groq key here
 
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
