@@ -9,7 +9,7 @@ import os
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0,
-    api_key="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"   # ← your groq key
+    api_key="sk-your-key-here"   # ← your groq key
 )
 
 # 2. Tools
